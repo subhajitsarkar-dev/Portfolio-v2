@@ -111,12 +111,12 @@ const Page = () => {
                   show === true ? `line-clamp-none` : `line-clamp-4`
                 }`}
               >
-                Hellow, I'm Subhajit Sarkar — a passionate frontend developer
-                with a strong foundation in modern web technologies like{" "}
-                <span className="font-semibold">React.js</span>,{" "}
+                Hellow, I&#39;m Subhajit Sarkar — a passionate frontend
+                developer with a strong foundation in modern web technologies
+                like <span className="font-semibold">React.js</span>,{" "}
                 <span className="font-semibold">Next.js</span> and so one. My
                 goal is to build a fast, flexible, mobile-first website that
-                clearly communicates with visitors. I’m currently focused on
+                clearly communicates with visitors. I&#39;m currently focused on
                 honing my skills through real-world projects and sharing my
                 knowledge with others.
                 <p className="pt-2">
