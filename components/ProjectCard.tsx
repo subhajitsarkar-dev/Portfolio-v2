@@ -31,12 +31,12 @@ const ProjectCard = ({ data }: { data: ProjectInfo }) => {
           <h1 className="font-popy">TechStack: {data.techStack}</h1>
         </CardContent>
         <CardFooter className="flex gap-3 items-center w-full">
-          <Link href={data.github} className="w-1/2">
+          <Link href={data.github} className="w-1/2" target="_blank">
             <Button className="w-full font-popy cursor-pointer">
               Github <FaGithub className="ml-2" />
             </Button>
           </Link>
-          <Link href={data.liveDemo} className="w-1/2">
+          <Link href={data.liveDemo} className="w-1/2" target="_blank">
             <Button className="w-full font-popy cursor-pointer">
               Live <SquareArrowOutUpRight className="ml-2" />
             </Button>

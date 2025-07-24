@@ -1,12 +1,12 @@
 export const projectInfo: ProjectInfo[] = [
   {
     id: 1,
-    title: "Weather App",
+    title: "Kanban Board",
     descriptions:
-      "hey there! i'm a software engineer with a knack for building efficient, intuitive digital experiences and a passion",
-    techStack: "ja, ts",
-    liveDemo: "",
-    github: "",
+      "Kanban Board is a simple task manager to organize tasks into To Do, Doing, and Done columns.",
+    techStack: "Html, Css, JavaScript",
+    liveDemo: "https://kanban-board-opal-seven.vercel.app/",
+    github: "https://github.com/subhajitsarkar-dev/Kanban-Board",
     badge: "Frontent",
   },
   {

@@ -148,7 +148,7 @@ const Page = () => {
               ))}
             </section>
             <section>
-              <div className="grid lg:grid-cols-2 gap-2 sm:grid-cols-1">
+              <div className="grid lg:grid-cols-2 gap-4 sm:grid-cols-1">
                 {projectInfo.map((info) => (
                   <ProjectCard data={info} key={info.id} />
                 ))}
