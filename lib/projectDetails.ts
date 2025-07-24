@@ -13,11 +13,11 @@ export const projectInfo: ProjectInfo[] = [
     id: 2,
     title: "Weather App",
     descriptions:
-      "hey there! i'm a software engineer with a knack for building efficient, intuitive digital experiences and a passion",
-    techStack: "ja, ts",
-    liveDemo: "",
-    github: "",
-    badge: "Full Stack",
+      "A responsive weather app showing real-time conditions, 3-day forecasts, and hourly updates based on your location.",
+    techStack: "NextJs, TypeScript, Tailwind",
+    liveDemo: "https://weather-application-se5x-s021y3q40.vercel.app/",
+    github: "https://github.com/subhajitsarkar-dev/Weather-Application",
+    badge: "Frontend",
   },
   {
     id: 3,
