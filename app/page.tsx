@@ -64,8 +64,8 @@ const Page = () => {
                 >
                   <span className="relative text-black">software</span>
                 </RoughNotation>{" "}
-                for
-                <br className="block md:hidden" /> fun
+                with
+                <br className="block md:hidden" /> pleasure
               </li>
               <li className="mb-2">truly love working on web</li>
             </ol>
