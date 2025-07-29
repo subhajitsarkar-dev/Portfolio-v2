@@ -19,46 +19,6 @@ export const projectInfo: ProjectInfo[] = [
     github: "https://github.com/subhajitsarkar-dev/Weather-Application",
     badge: "Frontend",
   },
-  {
-    id: 3,
-    title: "Weather App",
-    descriptions:
-      "hey there! i'm a software engineer with a knack for building efficient, intuitive digital experiences and a passion",
-    techStack: "ja, ts",
-    liveDemo: "",
-    github: "",
-    badge: "Frontent",
-  },
-  {
-    id: 4,
-    title: "Weather App",
-    descriptions:
-      "hey there! i'm a software engineer with a knack for building efficient, intuitive digital experiences and a passion",
-    techStack: "ja, ts",
-    liveDemo: "",
-    github: "",
-    badge: "Full Stack",
-  },
-  {
-    id: 5,
-    title: "Weather App",
-    descriptions:
-      "hey there! i'm a software engineer with a knack for building efficient, intuitive digital experiences and a passion",
-    techStack: "ja, ts",
-    liveDemo: "",
-    github: "",
-    badge: "Frontent",
-  },
-  {
-    id: 6,
-    title: "Weather App",
-    descriptions:
-      "hey there! i'm a software engineer with a knack for building efficient, intuitive digital experiences and a passion",
-    techStack: "ja, ts",
-    liveDemo: "",
-    github: "",
-    badge: "Frontent",
-  },
 ];
 
 export type ProjectInfo = {
