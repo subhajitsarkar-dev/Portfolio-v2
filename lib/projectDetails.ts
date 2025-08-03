@@ -15,7 +15,7 @@ export const projectInfo: ProjectInfo[] = [
     descriptions:
       "A responsive weather app showing real-time conditions, 3-day forecasts, and hourly updates based on your location.",
     techStack: "NextJs, TypeScript, Tailwind",
-    liveDemo: "https://weather-application-se5x-s021y3q40.vercel.app/",
+    liveDemo: "https://weather-application-se5x.vercel.app/",
     github: "https://github.com/subhajitsarkar-dev/Weather-Application",
     badge: "Frontend",
   },
