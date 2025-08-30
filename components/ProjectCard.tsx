@@ -28,7 +28,9 @@ const ProjectCard = ({ data }: { data: ProjectInfo }) => {
           </CardAction>
         </CardHeader>
         <CardContent>
-          <h1 className="font-popy">TechStack: {data.techStack}</h1>
+          <h1 className="font-popy">
+            <span className="font-semibold">TechStack:</span> {data.techStack}
+          </h1>
         </CardContent>
         <CardFooter className="flex gap-3 items-center w-full">
           <Link href={data.github} className="w-1/2" target="_blank">
@@ -36,11 +38,22 @@ const ProjectCard = ({ data }: { data: ProjectInfo }) => {
               Github <FaGithub className="ml-2" />
             </Button>
           </Link>
-          <Link href={data.liveDemo} className="w-1/2" target="_blank">
-            <Button className="w-full font-popy cursor-pointer">
-              Live <SquareArrowOutUpRight className="ml-2" />
-            </Button>
-          </Link>
+          {data.liveDemo === "" ? (
+            <div className="w-1/2 cursor-not-allowed">
+              <Button
+                className="w-full font-popy opacity-50 pointer-events-none"
+                disabled
+              >
+                Live <SquareArrowOutUpRight className="ml-2" />
+              </Button>
+            </div>
+          ) : (
+            <Link href={data.liveDemo} className="w-1/2" target="_blank">
+              <Button className="w-full font-popy cursor-pointer">
+                Live <SquareArrowOutUpRight className="ml-2" />
+              </Button>
+            </Link>
+          )}
         </CardFooter>
       </Card>
     </>

@@ -19,6 +19,16 @@ export const projectInfo: ProjectInfo[] = [
     github: "https://github.com/subhajitsarkar-dev/Weather-Application",
     badge: "Frontend",
   },
+  {
+    id: 3,
+    title: "Task Manager",
+    descriptions:
+      "A full stack Task Manager used to create, organize, track, and manage tasks or activities efficiently.With Authentication.",
+    techStack: "NextJs, TypeScript, Tailwind, Express, Mongoose, MongoDB",
+    liveDemo: "",
+    github: "https://github.com/subhajitsarkar-dev/Task-Manager",
+    badge: "Full Stack",
+  },
 ];
 
 export type ProjectInfo = {
