@@ -1,20 +1,18 @@
 "use client";
 
+import ImageComp from "@/components/ImageComp";
 import ProjectCard from "@/components/ProjectCard";
 import { Button } from "@/components/ui/button";
 import { projectInfo } from "@/lib/projectDetails";
 import { skills } from "@/lib/skill";
-import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { BsTwitter } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import profileImage from "./../public/dp.jpg";
 import { RoughNotation } from "react-rough-notation";
-import { useState } from "react";
 
 const Page = () => {
-  const [showAnnotation, setShowAnnotation] = useState(false);
   const [show, setShow] = useState(false);
 
   const readMore = () => {
@@ -25,30 +23,8 @@ const Page = () => {
       <div className="flex flex-col lg:flex-row w-full">
         <div className="lg:sticky lg:top-0 lg:h-screen lg:flex-none">
           <main className="flex flex-col gap-6 items-center sm:items-start pl-0 sm:px-14 md:pl-20 grow">
-            <div
-              className="pt-16"
-              onMouseEnter={() => setShowAnnotation(true)}
-              onMouseLeave={() => setShowAnnotation(false)}
-            >
-              <RoughNotation
-                type="circle"
-                show={showAnnotation}
-                color="#f59e0b"
-                strokeWidth={1}
-                animationDuration={1200}
-                padding={30}
-                iterations={3}
-                multiline={false}
-              >
-                <Image
-                  src={profileImage}
-                  alt="profile-image"
-                  height={56}
-                  width={250}
-                  priority
-                  className="rounded-xl hover:-rotate-3 transition-all duration-300 grayscale-75 hover:grayscale-0"
-                />
-              </RoughNotation>
+            <div className="pt-16">
+              <ImageComp />
             </div>
             <h1 className="text-3xl xl:text-4xl font-bold font-fair">
               Subhajit Sarkar
