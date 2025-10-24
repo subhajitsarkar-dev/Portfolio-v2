@@ -87,7 +87,7 @@ const Page = () => {
                   show === true ? `line-clamp-none` : `line-clamp-4`
                 }`}
               >
-                Hellow, I&#39;m Subhajit Sarkar — a passionate full stack
+                Hello, I&#39;m Subhajit Sarkar — a passionate full stack
                 developer with a strong foundation in modern web technologies
                 like <span className="font-semibold">React.js</span>,{" "}
                 <span className="font-semibold">Next.js</span> and so one. My
